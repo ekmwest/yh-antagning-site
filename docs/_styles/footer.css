@@ -1,0 +1,116 @@
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer {
+    margin: 4em 0;
+    padding: 2em 0 0;
+    border-top: 1px solid #ccc;
+}
+
+
+
+/* ==========================================================================
+   Logo
+   ========================================================================== */
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.footer__logo svg {
+    display: block;
+    color: hsl(210deg 77% 40%);
+    width: 32px;
+    height: auto;
+}
+
+.footer__logo span {
+    display: block;
+    font-weight: 600;
+    color: #111;
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+/* ==========================================================================
+   Nav
+   ========================================================================== */
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    gap: 56px;
+    gap: 0px;
+    justify-content: center;
+    margin: 0 auto 1.4em;
+    margin: 0 auto 1em;
+    text-align: center;
+}
+
+
+
+/* ==========================================================================
+   Icon
+   ========================================================================== */
+
+.footer__icon-link {
+    color: hsl(210deg 77% 40%);
+}
+
+.footer__icon-link svg {
+    width: 36px;
+    height: 36px;
+}
+
+
+
+/* ==========================================================================
+   Link
+   ========================================================================== */
+
+.footer__link {
+    /* display: block; */
+    color: rgba(0, 0, 0, .8);
+    font-size: .9em;
+    padding: .1em;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+
+
+/* ==========================================================================
+   Link Separator
+   ========================================================================== */
+
+
+
+
+
+/* ==========================================================================
+   End
+   ========================================================================== */
+
+.footer__end {
+    text-align: center;
+    margin-bottom: 4em;
+    font-size: 16px;
+}
+
+.footer__end p {
+    margin: 0;
+}
+
+.footer__end a {
+    color: inherit;
+}

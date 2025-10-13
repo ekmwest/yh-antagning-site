@@ -1,0 +1,86 @@
+.news-article {
+    background-color: #fff;
+    max-width: 690px;
+    margin: 64px auto 0;
+    padding: 64px 84px 8px;
+    border-radius: 24px;
+}
+
+.is-mobile .news-article {
+    margin: 24px auto 0;
+    padding: 24px 16px 24px;
+    border-radius: 16px;
+}
+
+
+
+/* ==========================================================================
+   h1
+   ========================================================================== */
+
+.news-article h1 {
+    text-align: left;
+    font-size: 32px;
+    margin: 0 auto 16px;
+}
+
+.is-mobile .news-article h1 {
+    font-size: 22px;
+}
+
+
+
+/* ==========================================================================
+   Meta
+   ========================================================================== */
+
+.news-article__meta {
+    display: flex;
+    gap: 12px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, .16);
+}
+
+.news-article__author-image {
+    width: 48px;
+    height: 48px;
+    background-color: #eee;
+    border-radius: 50%;
+    background-size: 48px 48px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    filter: grayscale(.2);
+}
+
+.news-article__author-name {
+    margin: 0;
+    font-weight: bold;
+}
+
+.news-article__meta time {
+    display: block;
+    font-family: "Merriweather", sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .5);
+
+}
+
+.news-article__youtube iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+
+
+/* ==========================================================================
+   All News Link
+   ========================================================================== */
+
+.news-article__all-news-link {
+    margin: 3em auto 2em;
+    text-align: center;
+}
