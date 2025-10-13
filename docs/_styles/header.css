@@ -1,0 +1,146 @@
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.header {
+    padding: 24px;
+}
+
+.is-mobile .header {
+    padding: 12px 8px;
+}
+
+
+
+/* ==========================================================================
+   Nav
+   ========================================================================== */
+
+.header__nav {
+    max-width: 1048px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 48px;
+    flex-grow: 1;
+    padding: 22px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:
+        0 0 0 1px rgba(0, 0, 0, 0.02),
+        0 0.2em 1.2em -0.4em rgba(0, 0, 0, 0.2),
+        0 0.4em 2.0em -0.8em rgba(0, 0, 0, 0.3);
+}
+
+.is-mobile .header__nav {
+    padding: 14px 16px;
+}
+
+
+
+/* ==========================================================================
+   Logo
+   ========================================================================== */
+
+.header__logo a {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: hsl(204deg 77% 40%);
+    color: hsl(210deg 77% 40%);
+    font-size: 16px;
+    font-weight: 600;
+    gap: 6px;
+}
+
+.header__logo svg {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.is-mobile .header__logo svg {
+    width: 24px;
+    height: 24px;
+}
+
+.header__logo span {
+    position: relative;
+    top: 1px;
+    text-wrap: nowrap;
+    color: #111;
+    font-size: 18px;
+}
+
+.is-mobile .header__logo span {
+    display: none;
+}
+
+
+
+/* ==========================================================================
+   Link
+   ========================================================================== */
+
+.header__link {
+    padding: 1em;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+.is-mobile .header__link {
+    font-size: 14px;
+    padding: .5em;
+}
+
+.header__link-mobile {
+    display: none;
+}
+
+.is-mobile .header__link-mobile {
+    display: unset;
+}
+
+.is-mobile .header__link-desktop {
+    display: none;
+}
+
+
+
+/* ==========================================================================
+   Apply Link
+   ========================================================================== */
+
+.header__apply-link {
+    color: #fff;
+    font-weight: 600;
+    background-color: hsl(210deg 77% 45%);
+    text-decoration: none;
+    border-radius: 22px;
+    padding: .6em 1.4em;
+}
+
+.is-mobile .header__apply-link {
+    border-radius: 22px;
+    padding: .4em 1em;
+    font-size: 14px;
+}
+
+.header__apply-link span {
+    color: #fff;
+}
+
+.header__apply-link-mobile {
+    display: none;
+}
+
+.is-mobile .header__apply-link-mobile {
+    display: unset;
+}
+
+.is-mobile .header__apply-link-desktop {
+    display: none;
+}
