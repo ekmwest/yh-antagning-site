@@ -5,7 +5,7 @@ pageclass: news-article
 
 # Det händer hösten 2019
 
-<!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "24 september 2019" } -->
+<!-- news-article-meta.html, { authorName: "Jonas Bergvall", authorImage: "jonas-bergvall.jpg", date: "24 september 2019" } -->
 
 Vi vill med detta blogginlägg informera lite om vad som händer under hösten i yh-antagning.se.
 

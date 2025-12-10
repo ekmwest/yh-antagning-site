@@ -5,7 +5,7 @@ pageclass: news-article
 
 # Utbildningar med flera studieorter
 
-<!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "18 januari 2021" } -->
+<!-- news-article-meta.html, { authorName: "Jonas Bergvall", authorImage: "jonas-bergvall.jpg", date: "18 januari 2021" } -->
 
 Numera finns det funktionalitet i YH-antagning för att hantera utbildningar med flera studieorter. På utbildningar där det finns flera studieorter och där de studerande ska placeras på någon studieort finns en flik som heter Studieorter. Under den fliken lägger ni till utbildningens samtliga studieorter.
 

@@ -5,7 +5,7 @@ pageclass: news-article
 
 # Checklistan: Förbereda nya utbildningar
 
-<!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "12 januari 2023" } -->
+<!-- news-article-meta.html, { authorName: "Kamil Gourie", authorImage: "kamil-gourie.jpg", date: "12 januari 2023" } -->
 
 <!-- youtube-embed.html, { title: "Förbereda utbildningar VT 2024", src: "https://www.youtube.com/embed/jGnQ98fOaQc?si=zWha4wolTVSLEMcl" } -->
 

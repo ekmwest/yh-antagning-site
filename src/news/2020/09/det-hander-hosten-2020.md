@@ -5,7 +5,7 @@ pageclass: news-article
 
 # Det händer hösten 2020
 
-<!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "21 september 2020" } -->
+<!-- news-article-meta.html, { authorName: "Kamil Gourie", authorImage: "kamil-gourie.jpg", date: "21 september 2020" } -->
 
 ## Vi lägger upp beviljade utbildningar
 

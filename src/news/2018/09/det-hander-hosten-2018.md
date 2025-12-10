@@ -5,7 +5,7 @@ pageclass: news-article
 
 # Det händer hösten 2018
 
-<!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "5 september 2018" } -->
+<!-- news-article-meta.html, { authorName: "Kamil Gourie", authorImage: "kamil-gourie.jpg", date: "5 september 2018" } -->
 
 Nu har höstterminen kört igång på allvar efter en varm sommar och igår var årets sista datum för att ansöka om att få bedriva Yh-utbildning. Ofta är det svårt att hinna blicka framåt under den här tiden på året. Vi vill med detta blogginlägg ändå informera lite om vad som händer under hösten i yh-antagning.se.
 

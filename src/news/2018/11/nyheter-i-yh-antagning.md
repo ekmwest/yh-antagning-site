@@ -5,7 +5,7 @@ pageclass: news-article
 
 # Nyheter i YH-antagning
 
-<!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "12 november 2018" } -->
+<!-- news-article-meta.html, { authorName: "Jonas Bergvall", authorImage: "jonas-bergvall.jpg", date: "12 november 2018" } -->
 
 Vi har nu uppdaterat yh-antagning.se med några efterfrågade förbättringar.
 

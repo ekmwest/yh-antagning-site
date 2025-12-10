@@ -5,7 +5,7 @@ pageclass: news-article
 
 # YH-antagning för Yrkeshögskolor
 
-<!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "1 januari 2021" } -->
+<!-- news-article-meta.html, { authorName: "Katja Sörlén", authorImage: "katja-sorlen.jpg", date: "1 januari 2021" } -->
 
 Vill du få en snabb inblick i vad YH-antagning är? Titta gärna på denna film på knappt 2 minuter. Hör av dig till oss för en längre genomgång!
 
