@@ -51,6 +51,7 @@ body {
 
 .is-mobile .main h1 {
     font-size: 32px;
+    margin: 48px auto 12px;
 }
 
 .main .preamble {
