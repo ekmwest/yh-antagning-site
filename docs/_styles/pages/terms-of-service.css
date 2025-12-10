@@ -3,21 +3,21 @@
     margin: 0 auto;
 }
 
-.terms-of-service__h2 {
+.terms-of-service h2 {
     font-size: 2.2em;
     font-weight: 600;
     border-bottom: 1px solid black;
     margin: 2em 0 1em;
 }
 
-.terms-of-service__h3 {
+.terms-of-service h3 {
     margin: 1.2em 0 .4em;
     font-weight: normal;
     font-size: 1.5em;
     color: #1766b5;
 }
 
-.terms-of-service__h4 {
+.terms-of-service h4 {
     margin: 1em 0 .4em;
 }
 
