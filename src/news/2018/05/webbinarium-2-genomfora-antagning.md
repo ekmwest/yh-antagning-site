@@ -3,7 +3,7 @@ layout: default.html
 pageclass: news-article
 ---
 
-# Webbinarium 2 - Genomföra antaning
+# Webbinarium: - Genomföra antaning
 
 <!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "15 maj 2018" } -->
 

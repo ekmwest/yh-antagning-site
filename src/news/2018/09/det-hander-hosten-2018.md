@@ -3,7 +3,7 @@ layout: default.html
 pageclass: news-article
 ---
 
-# Det händer hösten 2018
+# Detta händer under hösten 2018
 
 <!-- news-article-meta.html, { authorName: "Kamil Gourie", authorImage: "kamil-gourie.jpg", date: "5 september 2018" } -->
 

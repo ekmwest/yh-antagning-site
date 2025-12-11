@@ -3,7 +3,7 @@ layout: default.html
 pageclass: news-article
 ---
 
-# Nyheter i YH-antagning
+# Söka efter ansökningar
 
 <!-- news-article-meta.html, { authorName: "Jonas Bergvall", authorImage: "jonas-bergvall.jpg", date: "12 november 2018" } -->
 

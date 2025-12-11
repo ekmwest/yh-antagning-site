@@ -3,7 +3,7 @@ layout: default.html
 pageclass: news-article
 ---
 
-# Utbildningar med flera studieorter
+# Flera studieorter
 
 <!-- news-article-meta.html, { authorName: "Jonas Bergvall", authorImage: "jonas-bergvall.jpg", date: "18 januari 2021" } -->
 

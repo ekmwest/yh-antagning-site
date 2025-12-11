@@ -3,7 +3,7 @@ layout: default.html
 pageclass: news-article
 ---
 
-# Checklistan: Förbereda nya utbildningar
+# Checklista för nya utbildningar
 
 <!-- news-article-meta.html, { authorName: "Kamil Gourie", authorImage: "kamil-gourie.jpg", date: "12 januari 2023" } -->
 
