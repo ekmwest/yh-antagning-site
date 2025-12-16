@@ -1,4 +1,4 @@
-# yh-antagning-site
+# yh-antagning.se
 
 
 ### How to update the hero image
