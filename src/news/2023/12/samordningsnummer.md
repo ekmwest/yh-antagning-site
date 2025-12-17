@@ -5,7 +5,7 @@ pageclass: news-article
 
 # Samordningsnummer
 
-<!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "20 december 2023" } -->
+<!-- news-article-meta.html, { authorName: "Kamil Gourie", authorImage: "kamil-gourie.jpg", date: "20 december 2023" } -->
 
 Sökande kan nu ange antingen personnummer eller samordningsnummer i sin ansökan. Om ett samordningsnummer används kan det senare kompletteras med ett personnummer.
 
