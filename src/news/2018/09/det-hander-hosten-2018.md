@@ -1,6 +1,7 @@
 ---
 layout: default.html
 pageclass: news-article
+robots: noindex, nofollow
 ---
 
 # Detta händer under hösten 2018

@@ -1,6 +1,7 @@
 ---
 layout: default.html
 pageclass: news-article
+robots: noindex, nofollow
 ---
 
 # Dataskyddsförordningen och övriga nyheter 2019

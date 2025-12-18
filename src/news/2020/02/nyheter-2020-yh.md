@@ -1,6 +1,7 @@
 ---
 layout: default.html
 pageclass: news-article
+robots: noindex, nofollow
 ---
 
 # Nyheter 2020 - YH

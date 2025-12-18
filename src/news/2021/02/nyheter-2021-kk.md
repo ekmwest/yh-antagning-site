@@ -1,6 +1,7 @@
 ---
 layout: default.html
 pageclass: news-article
+robots: noindex, nofollow
 ---
 
 # Genomgång av studieorter och nyheter 2021
