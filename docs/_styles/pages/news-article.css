@@ -31,6 +31,39 @@
 
 
 /* ==========================================================================
+   h2
+   ========================================================================== */
+
+.news-article h2 {
+    text-align: left;
+    font-size: 18px;
+    margin: 1em 0 0;
+}
+
+.news-article .screenshot+h2 {
+    margin-top: 2em;
+}
+
+.is-mobile .news-article h2 {
+    font-size: 16px;
+}
+
+
+/* ==========================================================================
+   p
+   ========================================================================== */
+
+.news-article p {
+    margin: 0 0 1em;
+}
+
+.news-article .screenshot+p {
+    margin-top: 2em;
+}
+
+
+
+/* ==========================================================================
    Meta
    ========================================================================== */
 
@@ -38,7 +71,7 @@
     display: flex;
     gap: 12px;
     padding-bottom: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, .16);
 }
 
@@ -54,7 +87,7 @@
     filter: grayscale(.2);
 }
 
-.news-article__author-name {
+p.news-article__author-name {
     margin: 0;
     font-weight: bold;
 }
@@ -75,12 +108,27 @@
 }
 
 
+/* ==========================================================================
+   youtube
+   ========================================================================== */
+
+.news-article__youtube {
+    display: block;
+    margin: 1em auto;
+}
+
 
 /* ==========================================================================
    All News Link
    ========================================================================== */
 
-.news-article__all-news-link {
+p.news-article__all-news-link {
     margin: 3em auto 2em;
     text-align: center;
+    color: #1766b5;
+    display: block;
+}
+
+.news-article__all-news-link a {
+    color: inherit;
 }

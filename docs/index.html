@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8">
     <title>YH-antagning</title>
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="index, nofollow" />
     <meta name="description" content="Trygg och Effektiv antagning för svenska yrkeshögskolan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/_images/icon.svg" type="image/svg+xml">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:wght@700&display=block" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:wght@700&display=block" rel="stylesheet">
 
     <script src="/_scripts/is-mobile.js"></script>
 
@@ -19,10 +19,14 @@
     <link rel="stylesheet" href="/_styles/header.css" />
     <link rel="stylesheet" href="/_styles/footer.css" />
 
+    <link rel="stylesheet" href="/_styles/components/screenshot.css" />
+
     <link rel="stylesheet" href="/_styles/pages/index.css" />
     <link rel="stylesheet" href="/_styles/pages/about.css" />
+    <link rel="stylesheet" href="/_styles/pages/contact.css" />
     <link rel="stylesheet" href="/_styles/pages/news-index.css" />
     <link rel="stylesheet" href="/_styles/pages/news-article.css" />
+    <link rel="stylesheet" href="/_styles/pages/terms-of-service.css" />
 </head>
 
 <body>
@@ -57,151 +61,176 @@
 
 <div class="preamble">YH-antagning är en pålitlig antagningstjänst för den svenska yrkeshögskolan. Tjänsten förenklar hela processen från ansökan till klasslista.</div>
 
-
-<div class="index__hero">
-    <img src="/_images/hero.png" />
-</div>
+<img class="index__hero" src="/_images/hero.png" />
 
 <div class="index__highlights">
     <div class="index__feature-highlight">
         <div class="index__feature-highlight-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap-icon lucide-zap"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share2-icon lucide-share-2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"/><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"/></svg>
         </div>
-        <h3>Automatiskt urval</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h3>Beda</h3>
+        <p>Meriter hämtas automatiskt från betygsdatabasen Beda.</p>
     </div>
     <div class="index__feature-highlight">
         <div class="index__feature-highlight-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap-icon lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
         </div>
         <h3>Takvärde</h3>
-        <p>Ut libero enim, maximus non felis ac, fringilla rutrum purus.</p>
+        <p>Takvärdet minimerar antalet outnyttjade platser.</p>
     </div>
     <div class="index__feature-highlight">
         <div class="index__feature-highlight-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud-icon lucide-cloud"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap-icon lucide-zap"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>
         </div>
         <h3>Reservantagning</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Reserver erbjuds automatiskt plats när någon tackat nej.</p>
     </div>
     <div class="index__feature-highlight">
         <div class="index__feature-highlight-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share2-icon lucide-share-2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"/><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-section-icon lucide-section"><path d="M16 5a4 3 0 0 0-8 0c0 4 8 3 8 7a4 3 0 0 1-8 0"/><path d="M8 19a4 3 0 0 0 8 0c0-4-8-3-8-7a4 3 0 0 1 8 0"/></svg>
         </div>
-        <h3>Beda</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h3>Urval</h3>
+        <p>Urvalet sker helt automatiskt utifrån urvalsgrunderna.</p>
     </div>
     <div class="index__feature-highlight">
         <div class="index__feature-highlight-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sliders-horizontal-icon lucide-sliders-horizontal"><path d="M10 5H3"/><path d="M12 19H3"/><path d="M14 3v4"/><path d="M16 17v4"/><path d="M21 12h-9"/><path d="M21 19h-5"/><path d="M21 5h-7"/><path d="M8 10v4"/><path d="M8 12H3"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-icon lucide-calendar"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
         </div>
         <h3>Sena anmälningar</h3>
-        <p>Ut libero enim, maximus non felis ac, fringilla rutrum purus.</p>
+        <p>Möjligt att ta emot ansökningar efter sista ansökningsdatum.</p>
     </div>
     <div class="index__feature-highlight">
         <div class="index__feature-highlight-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-headset-icon lucide-headset"><path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z"/><path d="M21 16v2a4 4 0 0 1-4 4h-5"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-percent-icon lucide-percent"><line x1="19" x2="5" y1="5" y2="19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg>
         </div>
         <h3>20%-regeln</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+        <p>Rätt antal platser ges automatiskt till sökande enligt 20%-regeln.</p>
     </div>
 </div>
 
 <div class="index__reasons">
     <div class="index__reasons-left">
-        <h3>Varför<br />YH-antagning?</h3>
+        <h3>Varför <span>YH-antagning?</span></h3>
     </div>
 
     <div class="index__reasons-right">
         <div class="index__reason">
-            <h4>Private & secure</h4>
-            <p>Privacy, confidentiality and security are very important to us. Built in Europe, our products are GDPR and
-                HIPAA compliant, and ISO 27001 certified.</p>
+            <h4>Flexibilitet</h4>
+            <p>YH-antagning är en mycket flexibel lösning, och det finns stora möjligheter att anpassa tjänsten efter behov. Man kan exempelvis använda unika startdatum och samtidigt tillämpa takvärdet, eftersom hela processen är dynamisk. Dessutom har systemet inbyggt stöd för många olika utbildningsformer, ex. YH-program, korta kurser, nationella yrkesutbildningar och konst- och kulturutbildningar.</p>
         </div>
         <div class="index__reason">
-            <h4>Private & secure</h4>
-            <p>Privacy, confidentiality and security are very important to us. Built in Europe, our products are GDPR and
-                HIPAA compliant, and ISO 27001 certified.</p>
+            <h4>Trygghet</h4>
+            <p>Tjänsten säkerställer en rättssäker antagning och hjälper till att uppfylla dataskyddsförordningen. Alla vikiga ändringar och händelser loggas för att garantera spårbarhet, och sökande verifierar dessutom sina identiteter med BankID. Efter genomförd antagning sparas all information och kan därefter arkiveras under den tid som regler och förordningen kräver.</p>
         </div>
         <div class="index__reason">
-            <h4>Private & secure</h4>
-            <p>Privacy, confidentiality and security are very important to us. Built in Europe, our products are GDPR and
-                HIPAA compliant, and ISO 27001 certified.</p>
+            <h4>Enastående support</h4>
+            <p>Supporten på YH-antagning är snabb, omtyckt och mycket kunnig. Fråga oss om vad som helst, vi svarar alltid snabbt och begripligt.</p>
         </div>
     </div>
 </div>
 
-<div hidden class="index__testimonials">
+<div class="index__testimonials">
+    <h2 class="index__testimonials-header">Vad säger användarna om YH-antagning?</h2>
     <div class="index__testimonials-content">
         <div class="index__testimonial">
-            <img class="index__testimonial-avatar" src="/_images/customers/customer-1.jpg" />
-            <p class="index__testimonial-quote">Using this YH-antagning has completely streamlined our workflow. The support is responsive and helpful, and the product keeps improving with regular updates. Highly recommended!</p>
-            <p class="index__testimonial-customer">— Lisa Root, Triangelskolan</p>
+            <p class="index__testimonial-quote">"Vi uppskattar den snabba och trevliga supporten från YH-antagning - de återkopplar alltid snabbt och med ett professionellt och vänligt bemötande. Systemet är användarvänligt och enkelt att arbeta i."</p>
+            <p class="index__testimonial-customer">Sara Karlberg<br>Grundare<br>Svenska Terapihundskolan</p>
         </div>
         <div class="index__testimonial">
-            <img class="index__testimonial-avatar" src="/_images/customers/customer-2.jpg" />
-            <p class="index__testimonial-quote">YH-antagning has been a game-changer for our school. It's easy to use, scalable, and helps us stay organized and efficient. The setup was quick, and we saw immediate value from day one. We couldn't imagine working without it now.</p>
-            <p class="index__testimonial-customer">— John White, Sokrates AB</p>
+            <p class="index__testimonial-quote">"Supporten är fantastisk - man får alltid snabb återkoppling och den hjälp man behöver. Ett pålitligt och välfungerande verktyg som underlättar vårt arbete som yrkeshögskola och gör det enkelt att hantera och sortera ansökningar."</p>
+            <p class="index__testimonial-customer">Vian Algaf<br>Studentrekryteringsadministratör<br>Nackademin</p>
         </div>
         <div class="index__testimonial">
-            <img class="index__testimonial-avatar" src="/_images/customers/customer-3.jpg" />
-            <p class="index__testimonial-quote">We've been impressed with how seamless and user-friendly YH-antagning is. It has simplified complex tasks, improved collaboration across our team, and delivered real results. The value it brings far exceeds the cost.</p>
-            <p class="index__testimonial-customer">— Sarah Smith, Entreprenörskolan</p>
+            <p class="index__testimonial-quote">"YH-antagning underlättar mycket i våra arbetsuppgifter och är både rättssäker och stabil. Har man frågor och vill ha support sker denna jättesnabbt, med mycket kunnig och trevlig personal. Vi uppskattar vårt samarbete oerhört."</p>
+            <p class="index__testimonial-customer">Anders Rickman<br>Verksamhetschef<br>Yrkesutbildaren Habo</p>
+        </div>
+        <div class="index__testimonial">
+            <p class="index__testimonial-quote">"Systemet är ett av våra viktigaste stöd i det administrativa arbetet under antagningen. Vi uppskattar också den snabba och hjälpsamma supporten, alltid trevliga och lösningsorienterade!"</p>
+            <p class="index__testimonial-customer">Beatrice Joseph & Axel Skogberg<br>Antagningen<br>JENSEN yrkeshögskola</p>
+        </div>
+        <div class="index__testimonial">
+            <p class="index__testimonial-quote">"Vi har använt YH-antagning i många antagningsperioder och uppskattar framförallt hur smidigt det är att administrera ansökningar och kommunicera med sökande."</p>
+            <p class="index__testimonial-customer">Nathalie Forsberg<br>Antagningskoordinator<br>Företagsekonomiska Institutet</p>
+        </div>
+        <div class="index__testimonial">
+            <p class="index__testimonial-quote">"YH-antagning gör vårt arbete både tryggt och effektivt. Den automatiska reservantagningen underlättar när platser blir lediga, och vi slipper manuella moment som tidigare tog mycket tid."</p>
+            <p class="index__testimonial-customer">Heléne Cederholm<br>Utbildningsadministratör<br>Östsvenska Yrkeshögskolan</p>
         </div>
     </div>
 </div>
 
 <div class="index__features">
+    <h2 class="index__features-header">En etablerad plattform med kraftfulla funktioner</h2>
     <div class="index__features-container">
         <div class="index__feature">
-            <h3>Arkivering</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut libero enim, maximus non felis ac, fringilla rutrum purus. Proin nibh tortor, luctus eget dolor eget, lacinia volutpat nunc.</p>
+            <h3>Beda</h3>
+            <p>Meriter hämtas och bedöms automatiskt för sökande som verifierat sin identitet med BankID. Funktionen är givetvis valbar.</p>
         </div>
         <div class="index__feature">
-            <h3>Urval och antagning</h3>
-            <p>Nullam eu tincidunt ligula. Maecenas a sem lacus. Aliquam egestas nulla lacus, id tristique enim varius ac. Nullam imperdiet, lacus nec rutrum porta, tortor libero pharetra augue, vel lobortis turpis ligula sit amet est.</p>
+            <h3>Takvärde</h3>
+            <p>Takvärdet gör det möjligt att begränsa studietakten till 150%, vilket minimerar antalet outnyttjade platser. Funktionen är valbar och dessutom implementerad så att varken personuppgifter eller ansökningsinformation behöver delas mellan anordnare.</p>
         </div>
         <div class="index__feature">
-            <h3>Antagningsbesked</h3>
-            <p>Information om att den sökande har fått ett antagningsbesked skickas ut med e-post (kan kompletteras med SMS) och den sökande kan enkelt logga in och läsa sitt antagningsbesked och svara.</p>
+            <h3>20%-regeln</h3>
+            <p>YH-antagning säkerställer att max 20 procent av platserna fylls av sökande som är behöriga med hjälp av 20-procentsregeln.</p>
         </div>
         <div class="index__feature">
-            <h3>Särskilt prov</h3>
-            <p>Information om att den sökande har fått ett antagningsbesked skickas ut med e-post (kan kompletteras med SMS) och den sökande kan enkelt logga in och läsa sitt antagningsbesked och svara.</p>
+            <h3>Automatiserad reservantagning</h3>
+            <p>Reservantagningen är helt automatiserad vilket gör processen mycket kvalitets- och rättsäker. Sökande som inte väljer att behålla sin erbjudna plats ersätts automatiskt av nästa reserv.</p>
         </div>
         <div class="index__feature">
-            <h3>Sen anmälan</h3>
-            <p>YH-antagning sammanställer beslutsunderlaget åt ledningsgruppen, som fattar beslut om antagning.</p>
+            <h3>Sena anmälningar</h3>
+            <p>Det är möjligt att låta sökande skicka in sena anmälningar, dvs efter sista ansökningsdatum. När ledningsgruppen beslutat att flytta fram sista ansökningsdatum kan dessa ansökningar ingå i ett antagningsbeslut.</p>
         </div>
         <div class="index__feature">
-            <h3>Rapporter</h3>
-            <p>Efter genomförd antagningsomgång.</p>
+            <h3>Automatiskt urval</h3>
+            <p>Det totala urvalsvärdet beräknas utifrån urvalsgrunder och urvalsformeln, och sökade får automatiskt rätt plats i rangordningen.</p>
         </div>
         <div class="index__feature">
-            <h3>Antagningsbesked</h3>
-            <p>Information om att den sökande har fått ett antagningsbesked skickas.</p>
+            <h3>Särskilda prov</h3>
+            <p>Inbyggd funktion för att skicka kallelser till särskilda prov eller intervjuer. De sökande får kallelse och kan anmäla sig direkt i YH-antagning.</p>
         </div>
         <div class="index__feature">
-            <h3>Spåra ändringar</h3>
-            <p>Information om att den sökande har fått ett antagningsbesked skickas ut med e-post (kan kompletteras med SMS) och den sökande kan enkelt logga in och läsa sitt antagningsbesked och svara.</p>
-        </div>
-        <div class="index__feature">
-            <h3>Notifieringar</h3>
-            <p>Fel i antagningsunderlaget kan rättas.</p>
-        </div>
-        <div class="index__feature">
-            <h3>Rapporter</h3>
-            <p>Efter genomförd antagningsomgång finns det rapporter innehållande olika aspekter på antagningen som t.ex. kan användas som underlag vid inledande tillsyn eller annan granskning.</p>
+            <h3>Särskilda förkunskaper</h3>
+            <p>YH-antagning är förberett med förordningens behörighetskrav. Anordnaren kan vid behov komplettera med särskilda förkunskaper och urvalsgrunder. Förväntade underlag specificeras och beskrivs för att den sökande ska förse anordnaren med rätt information.</p>
         </div>
         <div class="index__feature">
             <h3>Anteckningar</h3>
-            <p>Det finns dessutom rapporter för att rapportera startsignal av utbildningen till myndigheten för yrkeshögskolan och personnummerbaserad statistik vilket SCB samlar in.</p>
+            <p>Det är möjligt att skriva anteckningar för varje ansökan. Anteckningarna är synliga för alla administratörer.</p>
+        </div>
+        <div class="index__feature">
+            <h3>Notifieringar</h3>
+            <p>YH-antagning notifierar automatiskt om en sökande har lagt in en ny ansökan eller förändrat sin ansökan.</p>
+        </div>
+        <div class="index__feature">
+            <h3>Meddelanden</h3>
+            <p>Meddelanden kan skickas till hela utbildningen, ett urval av sökande eller enskilda sökande. Sökande får en avisering och kan läsa meddelandet i YH-antagning. Anordnare ser vilka som läst meddelandet. Det går dessutom att skicka SMS.</p>
+        </div>
+        <div class="index__feature">
+            <h3>Antagningsbesked</h3>
+            <p>Antagningsbeskedet skickas till sökande med e-post (kan kompletteras med SMS). Den sökande får läsa beskedet i YH-antagning och kan svara.</p>
+        </div>
+        <div class="index__feature">
+            <h3>Rättssäker felhantering</h3>
+            <p>Fel i antagningsunderlaget kan korrigeras även efter att antagningen är beslutad, men detta loggas och ändringen måste godkännas av ledningsgruppen i ett nytt antagningsbeslut innan reservantagningen kan fortsätta utifrån det korrigerade underlaget.</p>
+        </div>
+        <div class="index__feature">
+            <h3>Spårbarhet</h3>
+            <p>Viktiga ändringar loggas för att säkerställa spårbarhet och en väldokumenterad antagningsprocess.</p>
+        </div>
+        <div class="index__feature">
+            <h3>Färdiga rapporter</h3>
+            <p>Tjänsten har inbyggda rapporter som t.ex. kan användas som underlag vid inledande tillsyn eller annan granskning. Det finns dessutom rapporter för att rapportera startsignal av utbildningen till myndigheten för yrkeshögskolan och personnummerbaserad statistik vilket SCB samlar in.</p>
+        </div>
+        <div class="index__feature">
+            <h3>Arkivering</h3>
+            <p>Efter avslutad antagning kan all information sparas och arkiveras under den tid som krävs. I arkivet finns alla ansökningsunderlag och information gällande varje ansökan. Filen innehåller även urvalsvärden, information om ledningsgruppsbeslut och den fullständiga ändringsloggen för antagningsomgången.</p>
         </div>
     </div>
 </div>
 
 <div class="index__cta">
-    <h2>You've made it this far! Get started with YH-antagning today.</h2>
+    <h2>Vill du veta mer om YH-antagning?</h2>
     <p><a href="/contact">Kontakta oss</a></p>
 </div>
         </div>
@@ -216,20 +245,18 @@
 </svg>
     </a>
     <div>
-        <a class="footer__link" href="/about">Om oss</a>
-        <span class="footer__link-separator">·</span>
         <a class="footer__link" href="/news">Nyheter</a>
         <span class="footer__link-separator">·</span>
+        <!-- <a class="footer__link" href="/about">Om oss</a>
+        <span class="footer__link-separator">·</span> -->
         <a class="footer__link" href="/contact">Kontakt</a>
-        <span class="footer__link-separator">·</span>
-        <a class="footer__link" href="/pricing">Priser</a>
         <span class="footer__link-separator">·</span>
         <a class="footer__link" href="https://apply.yh-antagning.se/">Till din ansökan</a>
     </div>
     <div>
         <a class="footer__link" href="https://admin.yh-antagning.se/">Inloggning för administratörer</a>
         <span class="footer__link-separator">·</span>
-        <a class="footer__link" href="/policy">Integritets- och säkerhetspolicy</a>
+        <a class="footer__link" href="/terms-of-service">Integritets- och säkerhetspolicy</a>
     </div>
 </nav>
 

@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8">
     <title>YH-antagning</title>
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="index, nofollow" />
     <meta name="description" content="Trygg och Effektiv antagning för svenska yrkeshögskolan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/_images/icon.svg" type="image/svg+xml">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:wght@700&display=block" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:wght@700&display=block" rel="stylesheet">
 
     <script src="/_scripts/is-mobile.js"></script>
 
@@ -19,10 +19,14 @@
     <link rel="stylesheet" href="/_styles/header.css" />
     <link rel="stylesheet" href="/_styles/footer.css" />
 
+    <link rel="stylesheet" href="/_styles/components/screenshot.css" />
+
     <link rel="stylesheet" href="/_styles/pages/index.css" />
     <link rel="stylesheet" href="/_styles/pages/about.css" />
+    <link rel="stylesheet" href="/_styles/pages/contact.css" />
     <link rel="stylesheet" href="/_styles/pages/news-index.css" />
     <link rel="stylesheet" href="/_styles/pages/news-article.css" />
+    <link rel="stylesheet" href="/_styles/pages/terms-of-service.css" />
 </head>
 
 <body>
@@ -53,15 +57,38 @@
 
     <main class="main">
         <div class="contact">
-            <h1>Kontakt</h1>
+            <h1>Kontakta oss</h1>
 
-<div class="preamble">YH-antagning pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur lobortis lectus a eleifend facilisis.</div>
+<div class="contact__information">
+    <p>
+        <a class="contact__mail" href="mailto:support@yh-antagning.se" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+            </svg>
+            <span>support@yh-antagning.se</span>
+        </a>
+        <br />
+        <a class="contact__phone" href="tel:+46850126090">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+            </svg>
+            <span>08 - 50 12 60 90</span>
+        </a>
+    </p>
 
+    <p>
+        <span>Learnpoint AB</span>
+        <br />
+        <span>KIVRA: 556684-6381</span>
+        <br />
+        <span>106 31 Stockholm</span>
+        <br />
+        <span>Sverige</span>
+    </p>
 
-
-<div class="about__team">
-
-    
+    <p>
+        <span>Organisationsnummer: 556684-6381</span>
+    </p>
 
 </div>
         </div>
@@ -76,20 +103,18 @@
 </svg>
     </a>
     <div>
-        <a class="footer__link" href="/about">Om oss</a>
-        <span class="footer__link-separator">·</span>
         <a class="footer__link" href="/news">Nyheter</a>
         <span class="footer__link-separator">·</span>
+        <!-- <a class="footer__link" href="/about">Om oss</a>
+        <span class="footer__link-separator">·</span> -->
         <a class="footer__link" href="/contact">Kontakt</a>
-        <span class="footer__link-separator">·</span>
-        <a class="footer__link" href="/pricing">Priser</a>
         <span class="footer__link-separator">·</span>
         <a class="footer__link" href="https://apply.yh-antagning.se/">Till din ansökan</a>
     </div>
     <div>
         <a class="footer__link" href="https://admin.yh-antagning.se/">Inloggning för administratörer</a>
         <span class="footer__link-separator">·</span>
-        <a class="footer__link" href="/policy">Integritets- och säkerhetspolicy</a>
+        <a class="footer__link" href="/terms-of-service">Integritets- och säkerhetspolicy</a>
     </div>
 </nav>
 
