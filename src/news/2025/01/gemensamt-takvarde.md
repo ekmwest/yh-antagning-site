@@ -14,6 +14,6 @@ YH-antagning är nu uppgraderat med ett nytt takvärde där antagningen till var
 
 Sedan 2023 har takvärdet kunnat användas för att begränsa studietakten inom en och samma anordnare. Nu kan det även tillämpas mellan anordnare som har aktiverat funktionen. Eftersom inställningen görs per utbildning går det att ange vilka utbildningar den ska gälla för. Ju fler utbildningar och anordnare som använder takvärdet, desto större blir effekten. Takvärdet gäller inom samma antagningsomgång när studieperioderna överlappar minst en kalendermånad.
 
-Som tidigare sker antagningen till olika utbildningar oberoende av varandra, vilket innebär att inga ansökningar stryks automatiskt. Varje sökande väljer själv vilka utbildningar som tackas ja eller nej till efter att en plats har erbjudits. Vid behov kan en administratör manuellt godkänna en högre studietakt genom att tacka ja åt den sökande.
+Precis som tidigare sker antagningen till olika utbildningar oberoende av varandra, vilket innebär att inga ansökningar stryks automatiskt. Varje sökande väljer själv vilka utbildningar som tackas ja eller nej till efter att en plats har erbjudits. Vid behov kan en administratör manuellt godkänna en högre studietakt genom att tacka ja åt den sökande.
 
 <!-- all-news-link.html -->
