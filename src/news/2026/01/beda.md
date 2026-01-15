@@ -6,7 +6,7 @@ robots: noindex, nofollow
 
 # Automatisk bedömning med Beda
 
-<!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "12 januari 2026" } -->
+<!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "16 januari 2026" } -->
 
 YH-antagning har nu uppdaterats med två nya funktioner: Beda-import och Automatisk bedömning. Funktionerna gör det möjligt att hämta sökandes meriter från Nationella betygsdatabasen (Beda) och — utifrån dessa — automatiskt bedöma både grundläggande behörighet och särskilda förkunskaper.
 
