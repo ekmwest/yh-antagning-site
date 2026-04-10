@@ -6,7 +6,7 @@ robots: noindex, nofollow
 
 # Uppföljning av takvärde
 
-<!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "16 januari 2026" } -->
+<!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "15 april 2026" } -->
 
 Takvärdet i YH-antagning gör att sökande inte kan tacka ja till mer än 150% studietakt. Funktionen lanserades hösten 2023 och idag används den på över 90% av alla YH-program.
 
