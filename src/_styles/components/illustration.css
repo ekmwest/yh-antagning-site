@@ -1,0 +1,26 @@
+/* ==========================================================================
+   Illustration
+   ========================================================================== */
+
+.illustration {
+    border-radius: 6px 6px 4px 4px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06),  
+                0 10px 40px -20px rgba(0, 0, 0, 0.25),
+                0 20px 60px -25px rgba(0, 0, 0, 0.2),
+                0 20px 20px -30px rgba(0, 0, 0, 0.1),
+                0 16px 32px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+}
+
+
+
+/* ==========================================================================
+   img, video
+   ========================================================================== */
+
+.illustration img,
+.illustration video {
+    display: block;
+    width: 100%;
+    border-radius: 6px 6px 4px 4px; /* Must be same as wrapper */
+}
