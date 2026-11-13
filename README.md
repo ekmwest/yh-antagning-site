@@ -1,7 +1,7 @@
 # yh-antagning.se
 
 
-### Development Setup
+## Development setup
 
 1. [Install kit](https://github.com/learnpoint/kit).
 
@@ -29,7 +29,7 @@
         Ctrl + C
 
 
-### How to update the hero image
+## How to: Edit the hero image
 
 1. Edit the file `hero.html`. Tool for creating arrows: https://www.fffuel.co/pppointed/.
 2. Open `/hero.html` in a browser.
@@ -38,7 +38,7 @@
 5. Verify that the image margins look good on `/index.html`.
 
 
-### How to edit the of terms of service page
+## How to: Edit the of terms of service page
 
 1. Edit `terms-of-service/index.html`.
 
