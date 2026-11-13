@@ -100,7 +100,7 @@ p.news-article__author-name {
     display: block;
     font-family: "Merriweather", sans-serif;
     font-size: 16px;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .6);
 
 }
 
@@ -130,14 +130,14 @@ p.news-article__author-name {
 p.news-article__correction {
     margin: 2em 0 1em;
     font-size: 15px;
-    color: #222;
+    color: #111;
 }
 
 .news-article__correction::before {
     content: "";
     display: block;
     width: 30%;
-    border-top: 1px solid #999;
+    border-top: 1px solid #aaa;
     margin-bottom: 1em;
 }
 
@@ -153,7 +153,7 @@ p.news-article__correction {
    ========================================================================== */
 
 p.news-article__all-news-link {
-    margin: 3em auto 2em;
+    margin: 3em auto 1.5em;
     text-align: center;
     color: #1766b5;
     display: block;

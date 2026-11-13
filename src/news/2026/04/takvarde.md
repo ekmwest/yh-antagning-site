@@ -12,7 +12,7 @@ Takvärdet i YH-antagning gör att sökande behöver ta hjälp av anordnaren fö
 
 Tack vare att funktionen används av många anordnare har andelen platser med sökande över 150% studietakt minskat från 13,3% till 2,8%:
 
-<!-- illustration.html, { src: "_assets/andel-platser-over-150-trend.png", alt: "Behörighetsgrunder" } -->
+<!-- illustration.html, { src: "_assets/andel-platser-over-150-trend.png", alt: "Andel platser med sökande över 150% studietakt: 13,3% HT 2022, 2,8% HT 2025." } -->
 
 Vi genomförde en enkät hösten 2025 och frågade hur anordnare upplevt funktionen. Några hade inte märkt någon större skillnad, men dom allra flesta hade upplevt en stor förbättring. Sökande gör mer genomtänkta val. Färre sena avhopp. Högre närvaro på uppropen. Mindre tid på att jaga reserver. Tryggare känsla inför terminsstart.
 
@@ -21,7 +21,7 @@ Det har funnits en farhåga att funktionen begränsar antalet utbildningar en s�
 En fråga som dykt upp är om takvärdet kan minska antalet outnyttjade platser. Här är dock takvärdets inverkan begränsad. Funktionen gör visserligen att fler sökande i ett tidigare skede får veta om dom antagits till yrkeshögskolan, och därför behöver dom inte tacka ja till andra utbildningar eller anställningar. Men den främsta orsaken till outnyttjade platser är att det finns för få behöriga sökande till vissa utbildningar. Takvärdet kan alltså minska antalet outnyttjade platser, men effekten är marginell.
 
 <p class="news-article__correction">
-    <span class="news-article__correction-label">Rättelse <time>16 nov 2026</time></span>: I en tidigare version stod det att sökande inte kan tacka ja till mer än 150% studietakt. Detta stämmer inte – sökande <strong>kan</strong> tacka ja till mer än 150%, men behöver ta hjälp av anordnaren för att göra det.
+    <span class="news-article__correction-label">Rättelse <time>16 nov 2026</time>:</span> I en tidigare version stod det att sökande inte kan tacka ja till mer än 150% studietakt. Detta stämmer inte – sökande <strong>kan</strong> tacka ja till mer än 150%, men behöver ta hjälp av anordnaren för att göra det.
 </p>
 
 
