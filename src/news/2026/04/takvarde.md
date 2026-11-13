@@ -8,7 +8,7 @@ robots: noindex, nofollow
 
 <!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "15 april 2026" } -->
 
-Takvärdet i YH-antagning gör att sökande inte kan tacka ja till mer än 150% studietakt. Funktionen lanserades hösten 2023 och idag används den på över 90% av alla YH-program.
+Takvärdet i YH-antagning gör att sökande behöver ta hjälp av anordnaren för att tacka ja till mer än 150% studietakt. Funktionen lanserades hösten 2023 och idag används den på över 90% av alla YH-program.
 
 Tack vare att funktionen används av många anordnare har andelen platser med sökande över 150% studietakt minskat från 13,3% till 2,8%:
 
@@ -19,5 +19,7 @@ Vi genomförde en enkät hösten 2025 och frågade hur anordnare upplevt funktio
 Det har funnits en farhåga att funktionen begränsar antalet utbildningar en sökande kan ansöka till, men så är inte fallet. Takvärdet tillämpas först när man ska tacka ja till erbjudanden från flera parallella utbildningar.
 
 En fråga som dykt upp är om takvärdet kan minska antalet outnyttjade platser. Här är dock takvärdets inverkan begränsad. Funktionen gör visserligen att fler sökande i ett tidigare skede får veta om dom antagits till yrkeshögskolan, och därför behöver dom inte tacka ja till andra utbildningar eller anställningar. Men den främsta orsaken till outnyttjade platser är att det finns för få behöriga sökande till vissa utbildningar. Takvärdet kan alltså minska antalet outnyttjade platser, men effekten är marginell.
+
+*Rättelse 16 nov 2026:* Tidigare stod det att sökande inte kan tacka ja till mer än 150% studietakt. Detta stämmer inte. Sökande kan tacka ja till mer än 150% , men behöver göra det i samråd med anordnaren. Detta framgår nu i artikeln.
 
 <!-- all-news-link.html -->
