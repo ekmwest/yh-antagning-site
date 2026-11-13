@@ -122,6 +122,32 @@ p.news-article__author-name {
 }
 
 
+
+/* ==========================================================================
+   Correction
+   ========================================================================== */
+
+p.news-article__correction {
+    margin: 2em 0 1em;
+    font-size: 15px;
+    color: #222;
+}
+
+.news-article__correction::before {
+    content: "";
+    display: block;
+    width: 30%;
+    border-top: 1px solid #999;
+    margin-bottom: 1em;
+}
+
+.news-article__correction-label {
+    font-weight:600;
+    font-style:italic;
+}
+
+
+
 /* ==========================================================================
    All News Link
    ========================================================================== */

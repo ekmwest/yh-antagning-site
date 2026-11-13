@@ -20,6 +20,9 @@ Det har funnits en farhåga att funktionen begränsar antalet utbildningar en s�
 
 En fråga som dykt upp är om takvärdet kan minska antalet outnyttjade platser. Här är dock takvärdets inverkan begränsad. Funktionen gör visserligen att fler sökande i ett tidigare skede får veta om dom antagits till yrkeshögskolan, och därför behöver dom inte tacka ja till andra utbildningar eller anställningar. Men den främsta orsaken till outnyttjade platser är att det finns för få behöriga sökande till vissa utbildningar. Takvärdet kan alltså minska antalet outnyttjade platser, men effekten är marginell.
 
-*Rättelse 16 nov 2026:* Tidigare stod det att sökande inte kan tacka ja till mer än 150% studietakt. Detta stämmer inte. Sökande kan tacka ja till mer än 150% , men behöver göra det i samråd med anordnaren. Detta framgår nu i artikeln.
+<p class="news-article__correction">
+    <span class="news-article__correction-label">Rättelse <time>16 nov 2026</time></span>: I en tidigare version stod det att sökande inte kan tacka ja till mer än 150% studietakt. Detta stämmer inte – sökande <strong>kan</strong> tacka ja till mer än 150%, men behöver ta hjälp av anordnaren för att göra det.
+</p>
+
 
 <!-- all-news-link.html -->
