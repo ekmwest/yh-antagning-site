@@ -130,6 +130,7 @@ p.news-article__author-name {
 p.news-article__correction {
     margin: 2em 0 1em;
     font-size: 15px;
+    line-height: 1.4;
     color: #111;
 }
 
