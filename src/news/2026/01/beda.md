@@ -4,7 +4,7 @@ pageclass: news-article
 robots: noindex, nofollow
 ---
 
-# Beda och Automatisk bedömning
+# Beda och automatisk bedömning
 
 <!-- news-article-meta.html, { authorName: "Martin Tholsby", authorImage: "martin-tholsby.jpg", date: "16 januari 2026" } -->
 
