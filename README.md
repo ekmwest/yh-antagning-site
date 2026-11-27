@@ -1,7 +1,35 @@
 # yh-antagning.se
 
 
-### How to update the hero image
+## Development setup
+
+1. [Install kit](https://github.com/learnpoint/kit).
+
+2. Clone this repo (or create a fork).
+
+3. In the repo (or your fork), start the dev server with the default port (4444):
+
+        kit dev
+
+     ... or start the dev server on a custom port:
+
+        kit dev -p [port]
+
+4. Open the site at `http://localhost:4444` (or the custom port).
+
+5. Write all your changes to the `src` folder. You should never make any changes to the `docs` folder.
+
+6. If there are any file mismatches, or build problems, it's perfectly safe to:
+    1. Stop the dev server: `Ctrl + C`.
+    2. Completely delete the ```docs``` folder.
+    3. Restart the dev server: `kit dev`. This command will rebuild the `docs` folder.
+
+7. When done, stop the server:
+
+        Ctrl + C
+
+
+## How to: Edit the hero image
 
 1. Edit the file `hero.html`. Tool for creating arrows: https://www.fffuel.co/pppointed/.
 2. Open `/hero.html` in a browser.
@@ -10,7 +38,7 @@
 5. Verify that the image margins look good on `/index.html`.
 
 
-### How to edit the of terms of service page
+## How to: Edit the of terms of service page
 
 1. Edit `terms-of-service/index.html`.
 

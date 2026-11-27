@@ -1,2 +1,7 @@
-deno.lock
+# macOS files
 .DS_Store
+Thumbs.db
+
+# Claude Code personal settings
+.claude/settings.local.json
+CLAUDE.local.md
